@@ -63,20 +63,31 @@
     animation: .6s slideInLeft forwards;
 }
 .side-bar-ctn a{
-    padding: 5px 10px;
+    padding: 10px 5px;
     text-transform: uppercase;
     letter-spacing: 1px;
     animation: .7s slideInLeft forwards;
-    border-left: 5px solid #030303;
-    margin-bottom: 15px;
 
 }
 .side-bar-ctn a:hover{
  background-color: rgb(221, 192, 154);
 }
 .sidebar-btn{
-    width: 100%;
+    padding: 5px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    /* margin-bottom: 10px; */
 }
 .sidebar-btn svg{
- margin-left: 80%;
+ margin-left: 40%;
+ padding: 5px;
+ border: 2px solid black;
+ border-radius: 10px;
+}
+.sidebar-links{
+    display: flex;
+    flex-direction: column;
+
 }
